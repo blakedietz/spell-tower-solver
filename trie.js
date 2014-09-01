@@ -11,7 +11,6 @@ Trie.prototype.checkIfWord = checkIfWord;
 
 module.exports = Trie;
 
-
 // Trie
 function addWord (word)
 {
@@ -71,4 +70,3 @@ function checkIfWord (word)
 
     return isAWord;
 }
-
